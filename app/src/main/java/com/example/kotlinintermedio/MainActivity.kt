@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         instancias()
     }
     private fun instancias(){
-        
+
     }
     enum class Direction(val dir:Int){
 
