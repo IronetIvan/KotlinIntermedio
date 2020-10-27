@@ -10,6 +10,11 @@ class MainActivity : AppCompatActivity() {
 
         //Enum Clases
         enumClases()
+        //Instancias
+        instancias()
+    }
+    private fun instancias(){
+        
     }
     enum class Direction(val dir:Int){
 
