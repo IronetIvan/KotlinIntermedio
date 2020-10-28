@@ -10,12 +10,10 @@ class MainActivity : AppCompatActivity() {
 
         //Enum Clases
         enumClases()
-        //Instancias
-        instancias()
+        // Nested and Inner Classes
+        nestedAndInnerClasses()
     }
-    private fun instancias(){
 
-    }
     enum class Direction(val dir:Int){
 
         NORTH(1),SOUTH(-1),WEST(-1), EAST(1);
@@ -50,5 +48,8 @@ class MainActivity : AppCompatActivity() {
 
         //Inicializacion
         println(userDirection.dir)
+    }
+    private fun nestedAndInnerClasses(){
+
     }
 }
